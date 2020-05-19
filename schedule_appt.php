@@ -1,6 +1,7 @@
 <!-- File: IS448 Project D4| schedule.html
 	 Authors: Thomas Zhang, Muhsina Hel
-	 Overview: File saves and updates appointment information chosen by clients and shows the appointment information after a time is confirmed. It is styled using confirmation.css -->
+	 Overview: File saves and updates appointment information chosen by clients and shows the appointment information
+	 after a time is confirmed. It is styled using confirmation.css -->
 
 <!DOCTYPE html>
 <html lang="en">
