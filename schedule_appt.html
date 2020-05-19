@@ -1,0 +1,152 @@
+<!-- File: IS448 Project D4| schedule.html
+	 Authors: Thomas Zhang
+	 Overview: This file allows users to schedule their appointment. It is styled using schedule.css -->
+<!DOCTYPE html>
+<html lang = "en">
+<head>
+	<title> Schedule Appointment </title>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" type="text/css" href="https://swe.umbc.edu/~thomasz1/is448/GProject/D5/schedule_appt.css" />
+</head>
+<body> 
+
+<!-- navigation bar --> 
+<div class="title">
+		<a href="https://swe.umbc.edu/~jsint1/is448/JMMT/home/home.html">
+		<!-- img src should point to logo.png in Julia's directory --> 
+		<img class = "logo" src="https://swe.umbc.edu/~jsint1/is448/JMMT/logo.png" alt="logo"> </a> 
+</div>
+
+
+<div class="dropbar"> 
+  <button class="dropbutton">Contact</button>
+  <div class="content">
+    <a href="https://swe.umbc.edu/~jsint1/is448/JMMT/contact_us/contact_us">Contact Us</a>
+ </div>
+</div>
+
+<div class="dropbar"> 
+  <button class="dropbutton">Appointments</button>
+  <div class="content">
+    <a href="#">Appointment History</a>
+    <a href="https://swe.umbc.edu/~jsint1/is448/JMMT/schedule/schedule_appt.html">Schedule Appointment</a>
+  </div>
+</div>
+
+<div class="dropbar">
+  <button class="dropbutton">Account</button>
+  <div class="content">
+		<a href="https://swe.umbc.edu/~jsint1/is448/JMMT/create_account/create_account.html">Create New Account</a>
+		<a href="https://swe.umbc.edu/~jsint1/is448/JMMT/sign_in.htm">Profile</a>
+  </div>
+</div>
+
+<div class="dropbar">
+  <button class="dropbutton">About</button>
+  <div class="content">
+		<a href="https://swe.umbc.edu/~jsint1/is448/JMMT/about.htm">About Us</a>
+  </div>
+</div>
+
+<br> <br> <br> <br> <br> <br> <br> <br> <br> 
+
+<!--<form action = "https://swe.umbc.edu/~thomasz1/is448/GProject/D5/scheduleA.php" method="POST"> -->
+<form action = "https://swe.umbc.edu/~thomasz1/is448/GProject/D6/schedule_appt.php" method="POST">
+<script type = "text/javascript"  src = "https://swe.umbc.edu/~thomasz1/is448/GProject/D6/schedule_appt.js" >
+	 </script>
+
+	<h3> Sign In</h3>
+	
+<div class="margin">
+
+	<label for="uname">Username: </label>
+	<input type = "text" name="uname" id="uname"><br/><br/>
+		
+	<label for="password">Password: </label>
+	<input type = "text" name="password" id="password">
+	
+</div>
+<br><br><br> <br> <br>
+ 
+<div class="schedule">
+   
+  <br><br><br> <br> 
+
+  
+	
+  <div class="scrollbar">
+	   <label> Appointment Dates </label>
+	   <select id="dates">
+	   <option> March 16th 2020 </option>
+	   <option> March 17th 2020 </option>
+	   <option> March 18th 2020 </option>
+	   </select>
+	   
+   </div>
+	
+	<br><br><br>
+
+	<label class="container">9:00 am
+	  <input type="radio" id="checkbox1" name="timeA" value="9:00am"> 
+	  <span class="checkmark"></span>
+	</label>
+
+	<label class="container">9:30 am
+	  <input type="radio" id="checkbox2" name="timeA" value="9:30am">
+	  <span class="checkmark"></span>
+	</label>
+
+	<label class="container">10:00 am
+	  <input type="radio" id="checkbox3" name="timeA" value="10:00am">
+	  <span class="checkmark"></span>
+	</label>
+
+	<label class="container">10:30 am
+	  <input type="radio" id="checkbox4" name="timeA" value="10:30am">
+	  <span class="checkmark"></span>
+	</label>
+	
+	<label class="container">11:00am
+	  <input type="radio" id="checkbox5" name="timeA" value="11:00am">
+	  <span class="checkmark"></span>
+	</label>
+	
+	<br> <br> <br> <br> <br> <br>
+	
+		
+	<label class="container">12:00 pm
+	  <input type="radio" id="checkbox6" name="timeA" value="12:00pm"> 
+	  <span class="checkmark"></span>
+	</label>
+
+	<label class="container">1:00 pm
+	  <input type="radio" id="checkbox7" name="timeA" value="1:00pm">
+	  <span class="checkmark"></span>
+	</label>
+
+	<label class="container">1:30 pm
+	  <input type="radio" id="checkbox8" name="timeA" value="1:30pm"> 
+	  <span class="checkmark"></span>
+	</label>
+
+	<label class="container">2:00 pm
+	  <input type="radio" id="checkbox9" name="timeA" value="2:00pm">
+	  <span class="checkmark"></span>
+	</label>
+	
+	<label class="container">2:30 pm
+	  <input type="radio" id="checkbox10" name="timeA" value="2:30pm"> 
+	  <span class="checkmark"></span>
+	</label>
+	
+	<br> <br> <br> <br> 
+	
+	<div class="confirmation">
+		<button class="Confirm Appointment" id="Submit" value="Submit" name="Submit">Appointment Confirmation</button>
+	</div>
+	
+</div>
+</form>
+
+</body>
+</html>
