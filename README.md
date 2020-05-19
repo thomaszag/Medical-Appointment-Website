@@ -1,8 +1,9 @@
 # Title: Medical Appointment Website
+#### Status: In Progress
 
 The Medical Appointment Website was designed to allow patients to schedule appointments so that office resources could be freed and allos the customer to avoid having to call to schedule for an appointment. This resource also gives the customer easy access to their information and allows them to update it easily.
 
-# Main Page List
+## Main Page List
 * Home --> https://swe.umbc.edu/~jsint1/is448/JMMT5/home/home.html
 * About Us --> https://swe.umbc.edu/~jsint1/is448/JMMT5/about.htm
 * Create New Account --> https://swe.umbc.edu/~jsint1/is448/JMMT5/create_account/create_account.html
