@@ -1,5 +1,5 @@
 # Title: Medical Appointment Website
-#### Status: In Progress
+#### Status: Finished
 
 The Medical Appointment Website was designed to allow patients to schedule appointments so that office resources could be freed and allos the customer to avoid having to call to schedule for an appointment. This resource also gives the customer easy access to their information and allows them to update it easily.
 
